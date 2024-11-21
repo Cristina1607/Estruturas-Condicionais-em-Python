@@ -1,0 +1,6 @@
+maioridade_faixa_etaria/
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── main.py
