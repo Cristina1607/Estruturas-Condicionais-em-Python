@@ -1,0 +1,24 @@
+opcao = int(input("Escolha uma opção: 1 (Verificar maioridade), 2 (Classificar faixa etária), 3 (Sair): "))
+
+if opcao == 1:
+    print("Você escolheu a opção 1.")
+    idade = int(input("Digite sua idade: "))
+    if idade < 18:
+        print("Você é menor de idade.")
+    else:
+        print("Você é maior de idade.")
+elif opcao == 2:
+    print("Você escolheu a opção 2.")
+    idade = int(input("Digite sua idade: "))
+    if idade < 13:
+        print("Você é crinça")
+    elif 13 <= idade <= 17:
+        print("Você é adolescente.")
+    elif 18 <= idade <= 64:
+        print("Você é adulto.")
+    else:
+        print("Você é idoso.")
+elif opcao == 3:
+    print("Você escolheu a opção 3. Saindo do programa.")
+else:
+    print("Opção inválida!")
